@@ -1,0 +1,66 @@
+@media (max-width: 400px) {
+    #alertify {
+        width: 100%;
+        right: 0;
+    }
+    .console-container {
+        font-size: 30px;
+    }
+}
+@media (max-width: 450px) {
+    .programLearn {
+        width: 30%;
+    }
+}
+@media (max-width: 600px) {
+    .intro {
+        background-size: cover;
+        background-position: center;
+    }
+}
+@media (max-width: 991px) {
+    .element-item {
+        width: 47.4%;
+    }
+}
+@media (max-width: 805px) {
+    .element-item {
+        width: 97%;
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        background-color: #212121;
+    }
+
+    .ulMenu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 99%;
+        left: 0;
+        padding-left: 0;
+        z-index: 1000;
+        list-style: none;
+        background-color: #212121;
+    }
+    .ulMenu.active {
+        display: block;
+    }
+    
+    .ulMenu li {
+        
+        background-color: #212121;
+        width: 100%;
+        text-transform: uppercase;
+        padding: 20px 20px;
+        border-bottom: none;
+    }
+}
+@media (max-width: 600px) {
+    #mapGoogle {
+        min-height: 400px;
+    }
+}
